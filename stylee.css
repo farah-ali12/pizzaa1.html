@@ -89,19 +89,18 @@ font-size: x-large;
     background-color: bisque;
     padding: 25px;
 }
+.pizza{
+    display:flex;
+    flex-direction:column;
+    align-item:center;
+    margin:15px;
+}
 .pizza div{
     display: flex;
-    flex-wrap: wrap;
-    display:inline-flex;
-  flex-flow: column wrap;
-  justify-content: flex-end;
-  justify-content: space-between;
-  text-transform: capitalize;
-  font-weight: bold;
-  font-size: larger;
-  position:relative;
-  left: 250px;
-  bottom: 150px;
+    flex-direction:column;
+    align-item:center;
+    margin-top:15px;
+    position:static;
   
 }
  .parent h3{
